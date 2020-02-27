@@ -6,7 +6,7 @@ export default class Receta {
  * 
  * @param {String} nombre 
  * @param {String} autor 
- * @param {number} ingrediente 
+ * @param {ingrediente[]} ingrediente 
  */
     constructor(nombre, autor, ingrediente) {
         this.nombre = nombre
